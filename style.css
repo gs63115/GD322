@@ -1,0 +1,32 @@
+
+
+
+@font-face {
+font-family: 'lexend mega' , sans-serif;}
+
+html {background-color: blueviolet ;}
+
+
+
+body{
+
+font-family: 'lexend mega', sans-serif;
+margin-top: 40px;
+margin-left: 40px;
+font-size: 15px;
+line-height: 1.5px;
+color: rgb(0, 0, 0);
+
+}
+
+h1 {
+
+font-size: 18px;
+line-height: 2px;
+}
+
+
+a{
+
+    color: brown;
+}
