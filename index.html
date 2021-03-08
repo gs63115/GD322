@@ -4,7 +4,21 @@
         <head>
             <title>GD322 Assignment 2</title>
             <style type="text/css">
-        
+                .demo-grid {
+                    width: 95%;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;}
+
+                .demo-grid header,
+                .demo-grid footer,
+                .demo-grid aside,
+                .demo-grid main 
+                {grid-column: span 2;}
+
+                .demo-grid aside {
+                    grid-row: 3;
+
                 body {
                     font-family: Arial, Verdana, sans-serif;
                     color: #ffffff;}
@@ -22,65 +36,12 @@
                     width: 75%;}
             </style>
         </head>
-        <body>
-            <div>
-                <h1>Header</h1>
-            </div>
-        </body>
-         
-        <body>
-            <div>
-                <h2>Sidebar 1</h2>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h3>Sidebar 2</h3>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h4>Main</h4>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h5>div</h5>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h6>Sidebar 1</h6>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h7>Sidebar 2</h7>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h8>Sidebar 1</h8>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h9>Main</h9>
-            </div>
-        </body>
-
-        <body>
-            <div>
-                <h10>Footer</h>
-            </div>
-        </body>
+        <div class="demo-grid">
+            <header class="demo">Header</header>
+            <aside class="demo">Sidebar</aside>
+            <main class="demo">Main content</main>
+            <footer class="demo">Footer</footer>
+        </div>
 <footer>
 
 </footer>
