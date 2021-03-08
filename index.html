@@ -4,29 +4,32 @@
         <head>
             <title>GD322 Assignment 2</title>
             <style type="text/css">
-            .container {
-                display: grid;
-                grid-template-columns: auto;
-                grid-template-rows: 50px 35px 50px 35px 50px 15px;
-            }
-            .item {
-                background-color: teal;
-                color: white;
-                padding: 10px;
-            }
+                .demo-grid {
+                    width: 95%;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;}
+
+                .demo-grid header,
+                .demo-grid footer,
+                .demo-grid aside,
+                .demo-grid main {
+                    grid-column: span 2;
+                }
+
+                .demo-grid aside {
+                    grid-row: 3;}
+
             </style>
 
-<div class="container">
-    <div class="item">Header</div>
-    <div class="item">Sidebar 1</div>
-    <div class="item">Sidebar 2</div>
-    <div class="item">Main</div>
-    <div class="item">Div</div>
-    <div class="item">Sidebar 1</div>
-    <div class="item">Sidebar 2</div>
-    <div class="item">Sidebar 1</div>
-    <div class="item">Main</div>
-    <div class="item">Footer</div>
+
+<div class="demo-grid">
+	<header class="demo">Header</header>
+	<aside class="demo">Sidebar</aside>
+	<main class="demo">Main content</main>
+	<footer class="demo">Footer</footer>
 </div>
 
+
+</div>
 </html>
