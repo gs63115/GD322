@@ -12,8 +12,7 @@
                     display: grid;
                     grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr ;
                     grid-template-rows: 200px 200px 200px 200px 200px 50px;}
-
-                .demo {
+            .demo {
                 color: rgba(255, 255, 255, 1);
                 padding: 50pt;
                 text-align: center;
@@ -21,23 +20,22 @@
                 font-family: 'Courier Prime', monospace;
                 text-align: center;
             }
-            
 
+            @media only screen and (min-width: 600px){
                          header.demo {
                 background-color: #0093ff;
                 grid-column-start: 1;
                 grid-column-end: 7;
             }   
+            }
 
-@media only screen and (min-width: 600px) {
-                
-           
+
             sidebar1.demo {
                 background-color: #eaac21;
                 grid-row: 2;
                 grid-column: 1/4;
             }
- }
+
             sidebar11.demo {
                 background-color: #eaac21;
                 grid-row: 4;
