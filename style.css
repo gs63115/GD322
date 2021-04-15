@@ -4,7 +4,13 @@
 @font-face {
 font-family: 'lexend mega' , sans-serif;}
 
-html {background-color: blueviolet ;}
+
+body{
+    background-color: #E1C8C6;
+}
+
+
+
 
 
 
@@ -25,8 +31,3 @@ font-size: 18px;
 line-height: 2px;
 }
 
-
-a{
-
-    color: brown;
-}
