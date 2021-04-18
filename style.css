@@ -55,6 +55,7 @@ grid-column: 3/5;
 }
 main1.demo {
     font-size: 15pt;
+    text-align: left;
 grid-column: 1/7 ;
 grid-row: 3;
 }
