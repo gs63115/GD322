@@ -9,6 +9,12 @@ body{
 }
 
 
+a{
+    color: rgb(109, 80, 75);
+}
+
+
+
 .demo-grid {
     width: 100%;
     margin: 0 ;
