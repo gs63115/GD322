@@ -39,6 +39,7 @@ font-size: 50pt;
 sidebar1.demo {
 grid-row: 2;
 grid-column: 1/7;
+text-decoration-color: cornsilk;
 }
 
 sidebar11.demo {
