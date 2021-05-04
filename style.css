@@ -30,7 +30,7 @@ font-family: 'New Tegomin', serif;
 text-align: center;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 375px){
          header.demo {
 background-color: #E1C8C6;
 grid-column-start: 1;
