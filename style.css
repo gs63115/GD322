@@ -25,9 +25,8 @@ a{
 color: rgba(255, 255, 255, 1);
 padding: 50pt;
 text-align: center;
-font-size: 25px;
+font-size: 15px;
 font-family: 'New Tegomin', serif;
-text-align: center;
 }
 
 @media only screen and (min-width: 375px){
