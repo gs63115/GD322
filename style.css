@@ -61,8 +61,8 @@ grid-row: 4;
 grid-column: 3/5;
 }
 main1.demo {
-    font-size: 15pt;
-    text-align: left;
+    font-size: 10pt;
+    text-align: center;
 grid-column: 1/6 ;
 grid-row: 3;
 }
