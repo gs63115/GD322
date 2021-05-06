@@ -134,7 +134,7 @@ height: 3px;
 	width: 50rem;
 	height: 37.5rem;
 	overflow: hidden;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 @keyframes parallax_one { /* controls img.one movement */
@@ -266,7 +266,7 @@ height: 3px;
 	animation-iteration-count: infinite;
 	animation-duration: 18s;
 	animation-direction: forwards;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 #proparallax img.two {
@@ -275,7 +275,7 @@ height: 3px;
 	animation-iteration-count: infinite;
 	animation-duration: 18s;
 	animation-direction: forwards;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 #proparallax img.three {
@@ -284,5 +284,5 @@ height: 3px;
 	animation-iteration-count: infinite;
 	animation-duration: 18s;
 	animation-direction: forwards;
-	object-fit: contain;
+	object-fit: cover;
 }
