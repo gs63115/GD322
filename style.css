@@ -1,6 +1,10 @@
 
 nav.box{
 background-color: #cc7b7b;
+border: 2pt;
+border-color: rgb(95, 78, 64);
+display: inline;
+
 text-align: center;
 }
 
