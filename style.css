@@ -1,7 +1,5 @@
 
-nav.box{
 
-}
 
 body{
     background-color: #E1C8C6;
@@ -33,7 +31,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgb(153, 86, 103);
   }
   
   .active {
