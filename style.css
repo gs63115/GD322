@@ -78,6 +78,7 @@ grid-column: 6/7;
 }
 footer.demo {
 grid-row: 6;
+font-size: 13pt;
 grid-column: 1/7;
 height: 3px;    
 }
