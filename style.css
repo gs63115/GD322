@@ -1,9 +1,5 @@
 
-nav.box{
-background-color: #cc7b7b;
 
-text-align: center;
-}
 
 body{
     background-color: #E1C8C6;
@@ -23,7 +19,7 @@ ul {
   li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #050404;
   }
 
 
