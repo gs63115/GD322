@@ -14,7 +14,7 @@ ul {
   }
   
   li {
-    float: left;
+    float: center;
     border-right:1px solid #bbb;
   }
   
