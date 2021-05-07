@@ -130,7 +130,7 @@ height: 3px;
 }	
 
 #proparallax img {
-	position: fixed;
+	position: absolute;
 	width: 50rem;
 	height: 37.5rem;
 	overflow: hidden;
