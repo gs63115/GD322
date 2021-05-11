@@ -41,7 +41,7 @@ a{
 }
 
 
-
+@media only screen and (min-width: 375px){
 .demo-grid {
     width: 100%;
     margin: 0 ;
@@ -72,18 +72,17 @@ grid-column: 1/7;
 }
 
 
-@media screen and (min-width: 370px) {
-    sidebar11.demo {
-      display: none;
-font-size: 13pt;
+
+
+
+
+
+sidebar11.demo {
+    display: inline;
+    font-size: 13pt;
 grid-row: 5;
 grid-column: 1/3;
 }
-
-
-
-
-    
 
 sidebar111.demo{
 grid-row: 4;
