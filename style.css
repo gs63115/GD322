@@ -46,7 +46,9 @@ a:active {
   a:hover {
     text-decoration: underline;
   }
-
+  a:index {
+    text-decoration: underline;
+  }
 
 
 
