@@ -105,6 +105,10 @@ grid-row: 5;
 grid-column: 3/5;
 }
 main1.demo {
+    background-color:rgb(94, 76, 59) ;
+    width: 400px;
+    height: 400px;
+    border: 1px dotted black;
     font-size: 13pt;
     text-align: left;
 grid-column: 1/3 ;
