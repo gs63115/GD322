@@ -40,7 +40,9 @@ a{
     color: rgb(109, 80, 75);
 }
 
-
+a:active {
+    text-decoration: underline;
+  }
 
 
 
