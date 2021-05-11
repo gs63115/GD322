@@ -73,7 +73,7 @@ grid-column: 1/7;
 
 
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 375px) {
     sidebar11.demo {
       display: none;
 font-size: 13pt;
