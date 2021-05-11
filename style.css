@@ -41,7 +41,7 @@ a{
 }
 
 
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 375px){
 .demo-grid {
     width: 100%;
     margin: 0 ;
@@ -78,7 +78,7 @@ grid-column: 1/7;
 
 
 sidebar11.demo {
-    display: inline;
+    display: none;
     font-size: 13pt;
 grid-row: 5;
 grid-column: 1/3;
